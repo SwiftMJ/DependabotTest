@@ -7,7 +7,7 @@ registries:
     password: ${{ secrets.PASSWORD }}
 updates:
   - package-ecosystem: nuget
-    directory: "/DependabotTest"
+    directory: "/"
     registries: "*"
     schedule:
       interval: daily
